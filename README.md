@@ -6,9 +6,9 @@ Admin: To manage the menu by adding or removing items.
 
 Customer: To view the menu, place orders, and checkout.
 
-Features
+# Features
 
-Admin:
+# Admin:
 
 Login functionality with default credentials (admin/admin).
 
@@ -18,7 +18,7 @@ Delete menu items by recipe name.
 
 View the complete list of menu items.
 
-Customer:
+# Customer:
 
 Login functionality with default credentials (customer/customer).
 
@@ -30,13 +30,13 @@ View the total bill for the order.
 
 Checkout and clear the order list.
 
-Prerequisites
+# Prerequisites
 
 Python 3.x
 
 tkinter library (included with standard Python installations)
 
-How to Run
+# How to Run
 
 Clone or download the repository to your local machine.
 
@@ -48,49 +48,49 @@ python restaurant_management_gui.py
 
 Use the GUI to interact as an admin or customer.
 
-Default Credentials
+# Default Credentials
 
-Admin Login:
+# Admin Login:
 
 Username: admin
 
 Password: admin
 
-Customer Login:
+# Customer Login:
 
 Username: customer
 
 Password: customer
 
-Screenshots
+# Screenshots
 
-Main Menu
+# Main Menu
 
 Provides options for Admin or Customer login.
 
-Admin Dashboard
+# Admin Dashboard
 
 Options to add, delete, and view menu items.
 
-Customer Dashboard
+# Customer Dashboard
 
 Menu display with options to add items to the order, view the bill, and checkout.
 
-Code Structure
+# Code Structure
 
-Classes:
+# Classes:
 
 Restaurant: Holds the restaurant name.
 
-Admin: Manages menu items.
+# Admin: Manages menu items.
 
-Customer: Handles customer orders and bill generation.
+# Customer: Handles customer orders and bill generation.
 
-RestaurantApp: Implements the GUI using tkinter and integrates Admin and Customer functionalities.
+# RestaurantApp: Implements the GUI using tkinter and integrates Admin and Customer functionalities.
 
-Key Methods:
+# Key Methods:
 
-Admin:
+# Admin:
 
 login(username, password)
 
@@ -98,7 +98,7 @@ add_item(recipe, price)
 
 delete_item(recipe)
 
-Customer:
+# Customer:
 
 login(username, password)
 
@@ -108,6 +108,6 @@ calculate_bill()
 
 checkout()
 
-Contribution
+# Contribution
 
 Feel free to fork the repository and submit pull requests for any enhancements or bug fixes. Suggestions and feedback are welcome.
